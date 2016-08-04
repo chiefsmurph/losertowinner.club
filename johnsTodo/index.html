@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>http://losertowinner.club</title>
+<script src='js/rendering.js'></script>
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+</style>
+<script>
+(function ready(fn) {
+  if (document.readyState != 'loading'){
+    fn();
+  } else {
+    document.addEventListener('DOMContentLoaded', fn);
+  }
+})(function() {
+
+
+  var app = {
+    children: [EnterTodoBox, ListTodos, Footer],
+  }
+
+  John.render(app)
+
+
+
+});
+</script>
+</head>
+
+<body>
+
+<h1>Todos</h1>
+</body>
+
+</html>
